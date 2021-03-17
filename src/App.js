@@ -84,7 +84,7 @@ function App() {
       flavor = pokeFlavorText[index].data.flavor_text_entries.find(flavor => flavor.language.name === "es")
       flavor = flavor.flavor_text
     }
-    return flavor;s
+    return flavor;
   }
 
   const showJapanName = (index) => {
