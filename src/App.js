@@ -14,7 +14,7 @@ function App() {
     async function getPokesPerPage() {
       const offsetValue = page * 6;
       const response = await axios(
-        'https://pokeapi.co/api/v2/pokemon/?limit=6&offset=' + offsetValue+"/"
+        'https://pokeapi.co/api/v2/pokemon/?limit=4&offset=' + offsetValue+"/"
       )
       setPokelist(response.data.results)
     }
